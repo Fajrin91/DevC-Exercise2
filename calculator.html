@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kalkulator sederhana</title>
+    <link rel="stylesheet" href="./calculator.css" />
+</head>
+
+<body>
+    <center>
+        <div class="KalkulatorSemua">
+            <h1>Kalkulator Sederhana</h1>
+            <input type="text" id="angkaPertama">
+            <br />
+            <select id="operator">
+                <option value="+">Tambah</option>
+                <option value="-">Kurang</option>
+                <option value="*">Kali</option>
+                <option value="/">Bagi</option>
+            </select>
+            <br />
+            <input type="text" id="angkaKedua">
+            <br />
+            <input type="submit" onclick="kalkulator()" value="=">
+        </div>
+        <br />
+
+        <div class="hasilkalkulator">
+            <input type="text" id="hasil" disabled>
+        </div>
+    </center>
+</body>
+<script src="calculator.js"></script>
+
+</html>

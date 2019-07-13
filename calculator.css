@@ -1,0 +1,19 @@
+.KalkulatorSemua {
+    border: 4px dashed black;
+    width: 70%;
+    background-color: salmon;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    padding-bottom: 30px;
+}
+
+.hasilkalkulator {
+    width: 70%;
+    border: 4px dashed black;
+    background-color: skyblue;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
